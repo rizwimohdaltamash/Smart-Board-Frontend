@@ -1,5 +1,5 @@
 // API configuration and utilities
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://smart-board-backend-2.onrender.com/api';
 
 // Get token from localStorage
 export const getToken = () => {
